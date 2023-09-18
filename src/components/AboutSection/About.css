@@ -1,0 +1,10 @@
+#about_container{
+    height: 50vh;
+}
+#right_div p{
+    text-align: justify;
+}
+
+#right_div Button{
+    align-self: flex-start;
+}

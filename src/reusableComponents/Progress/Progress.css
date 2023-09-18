@@ -1,0 +1,31 @@
+.progress{
+    height: 30px;
+    width: 200px;
+}
+.progressbar {
+    position: relative;
+    max-width: 500px;
+    width: 300px;
+    margin: 0 auto 0;
+    height: 30px;
+    background: white;
+    overflow: hidden;
+  }
+  
+  span.progress {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    background: #9fa5a5;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+#skill_name{
+    height: 30px;
+    width: 80px;
+}
