@@ -1,6 +1,47 @@
 import "./Skills.css";
 import Progress from '../../reusableComponents/Progress/Progress';
+import { Fragment } from "react";
 
+
+const skillsList = [
+  {
+    id: "0",
+    text: "HTML",
+    width:"95%"
+  },
+  {
+  id: "1",
+  text: "CSS",
+  width:"45%"
+},
+  {
+    id: "2",
+    text: "Bootstrap",
+    width:"85%"
+  },
+  {
+    id: "3",
+    text: "JS",
+    width:"75%"
+  },
+  {    id: "4",
+  text: "Jquery",
+  width:"75%"
+  },
+  {    id: "5",
+  text: "React",
+  width:"35%"
+  },
+  {    id: "6",
+  text: "XD",
+  width:"85%"
+  },
+  {
+    id: "7",
+    text: "Dart",
+    width:"90%"
+  },
+];
 const Skills = (props) => {
   return (
       <div className="bg-dark pt-5 pb-5">
@@ -23,14 +64,12 @@ const Skills = (props) => {
 
           <div className="pt-5 pe-5 d-flex flex-wrap flex-column gap-3" id="right_div">
               
-            <Progress  text='HTML' width="95%"></Progress>
-             <Progress text='CSS' width="40%"></Progress>
-             <Progress text='Bootstrap' width="70%"></Progress>
-             <Progress text='JS' width="60%"></Progress>
-             <Progress text='Jquery' width="60%"></Progress>
-             <Progress text='React' width="20%"></Progress>
-             <Progress text='XD' width="60%"></Progress>
-             <Progress text='Dart' width="80%"></Progress>
+          {skillsList.map((skill) => (
+        <Fragment key={skill.id}>
+          <Progress  text= {skill.text} width={skill.width}></Progress>
+        </Fragment>
+      ))}
+
             
           </div>
     </div>
