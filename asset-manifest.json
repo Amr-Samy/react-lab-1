@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/react-lab-1/static/css/main.04f065a4.css",
-    "main.js": "/react-lab-1/static/js/main.d39bb473.js",
+    "main.js": "/react-lab-1/static/js/main.78d638aa.js",
     "static/js/787.e45aa525.chunk.js": "/react-lab-1/static/js/787.e45aa525.chunk.js",
     "static/media/strange.jpg": "/react-lab-1/static/media/strange.7af4177cfb80c3c26233.jpg",
     "static/media/Stranger Doctor.woff": "/react-lab-1/static/media/Stranger Doctor.137595de6562f98def6b.woff",
     "index.html": "/react-lab-1/index.html",
     "main.04f065a4.css.map": "/react-lab-1/static/css/main.04f065a4.css.map",
-    "main.d39bb473.js.map": "/react-lab-1/static/js/main.d39bb473.js.map",
+    "main.78d638aa.js.map": "/react-lab-1/static/js/main.78d638aa.js.map",
     "787.e45aa525.chunk.js.map": "/react-lab-1/static/js/787.e45aa525.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04f065a4.css",
-    "static/js/main.d39bb473.js"
+    "static/js/main.78d638aa.js"
   ]
 }
